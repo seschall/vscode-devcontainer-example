@@ -1,0 +1,8 @@
+{
+    "name":"Python Dev Env",
+    "dockerFile": "${localWorkspaceFolder}/Dockerfile",
+    "postCreateCommand":".devcontainer/poststep.sh",
+    "extensions": [
+        "ms-python.python"
+    ]
+}

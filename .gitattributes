@@ -1,0 +1,5 @@
+# Enforce one end of line (eol). Devcontainer environment leads to an mixed setup. 
+# The linux-container uses eol=lf but windows-host uses eol=crlf.
+# This can lead to issues for example that git detects files as changed but only
+# the eol does not match.
+* text eol=lf
